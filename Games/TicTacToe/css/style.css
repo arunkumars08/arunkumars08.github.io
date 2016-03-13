@@ -1,0 +1,57 @@
+/* Intelligence 
+*/
+.intelligence-bar {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	margin-bottom: 30px;
+	min-height: 50px;
+	height: auto;
+	background: #ededed;
+	font-size: 15px;
+	text-align: center;
+	padding: 10px;
+}
+.hide-me {
+	display: none;
+}
+/* Intelligence 
+*/
+
+.tile {
+    width: 32%;
+    border: 1px solid #ededed;
+    height: 33%;
+    float: left;
+    padding: 0;
+    margin: 0;
+	text-align: center;
+}
+.tile > span {
+	top: 45%;
+    position: relative;
+}
+.clear {
+	clear: both;
+}
+.game_arena {
+	width: 500px;
+    height: 500px;
+	margin: 0 auto;
+}
+#score_board {
+    width: 500px;
+}
+#score_board > div {
+	display: inline-block;
+}
+.freeze-game {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	color: #fff;
+	background: rgba(0, 0, 0, 0.5);
+}
