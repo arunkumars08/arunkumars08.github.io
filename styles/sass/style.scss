@@ -1,0 +1,39 @@
+$borderColor: #ededed;
+$headerColor: #135084;
+$contentHeaderColor: #373a3c;
+.arunkumars08 {
+    font-family: 'Segoe UI Light';
+    padding: 20px;
+    padding-left: 0;
+    padding-right: 0;
+    header {
+        padding-bottom: 5px;
+        .my-name {
+            font-size: 60px;
+            padding: 0;
+            margin: 0;
+            color: $headerColor;
+            text-transform: UPPERCASE;    
+        }
+        margin-bottom: 25px;
+    }
+    .article {
+        padding: 10px;
+        margin: 10px;
+        p {
+            padding: 0;
+            margin: 0;
+            font-size: 17px;
+            line-height: 18px;
+        }
+    }
+    .my-headers {
+        font-size: 35px;
+        color: $contentHeaderColor;
+    }
+    
+    .footer-text {
+        padding-top: 5px;
+        text-align: center;    
+    }
+}
